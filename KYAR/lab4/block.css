@@ -1,0 +1,98 @@
+     .q {
+        display: inline-block;
+
+        border-style: solid;
+        border-left-color: brown;
+        border-bottom-color: yellow;
+        border-right-color: darkblue;
+        border-top-color: orange;
+      }
+      .w {
+        display: block;
+        max-width: max-content;
+        border-left-style: solid;
+        border-left-color: #007ba7;
+        border-right-style: solid;
+        border-right-color: #007ba7;
+      }
+      .k {
+        display: block;
+        max-width: max-content;
+
+        border-top-style: solid;
+        border-top-color: rgb(229, 43, 80);
+        border-right-style: dashed;
+        border-right-color: rgb(0, 183, 255);
+        border-left-style: dashed;
+        border-left-color: rgb(0, 183, 255);
+        border-bottom-style: dashed;
+        border-bottom-color: rgb(0, 183, 255);
+      }
+      .e {
+        display: block;
+        max-width: max-content;
+
+        border-style: dotted;
+        border-color: orange;
+        border-width: 1px;
+      }
+      .r {
+        display: block;
+        max-width: max-content;
+        border-top-style: solid;
+        border-bottom-style: solid;
+        border-top-color: rgb(0, 0, 139);
+        border-bottom-color: rgb(0, 0, 139);
+        border-top-width: 2px;
+        border-bottom-width: 2px;
+        border-left-style: dashed;
+        border-right-style: dashed;
+        border-right-color: darkred;
+        border-left-color: rgb(139, 0, 0);
+      }
+      .t {
+        display: block;
+        max-width: max-content;
+        border-style: double;
+        border-color: #b3446c;
+      }
+      .y {
+        display: block;
+        max-width: max-content;
+        border-top-style: dashed;
+        border-top-color: #808000;
+        border-top-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: #ff7518;
+        border-bottom-width: 3px;
+      }
+      .u {
+        display: block;
+        max-width: max-content;
+        border-bottom-style: double;
+        border-left-style: double;
+        border-bottom-color: #cc7722;
+        border-left-color: #cc7722;
+      }
+      .i {
+        display: block;
+        max-width: max-content;
+        border-top-color: #b5a642;
+        border-right-color: #b5a642;
+        border-top-style: ridge;
+        border-right-style: ridge;
+      }
+      .o {
+        display: block;
+        max-width: max-content;
+
+        border-top-color: rgb(0 40 0);
+        border-right-color: rgb(0 40 0);
+        border-bottom-style: dotted;
+        border-right-style: dotted;
+        border-left-style: dotted;
+        border-left-color: rgb(0 40 0);
+        border-left-width: 5px;
+        border-right-width: 5px;
+        border-bottom-width: 5px;
+      }

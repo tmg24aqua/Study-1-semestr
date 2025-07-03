@@ -1,0 +1,70 @@
+   @font-face {
+        font-family: Caveot;
+        src: url(/fonts/Caveat.woff);
+      }
+      h1 {
+        font-family: Caveot;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+        font-weight: bold;
+        font-size: 45px;
+        text-shadow: rgb(232, 187, 10) 1px 0 10px;
+      }
+      @font-face {
+        font-family: Exo;
+        src: url(/fonts/Exo2.woff);
+      }
+
+      h2 {
+        font-family: Exo;
+        margin-bottom: 1.2em;
+        margin-top: 0.2rem;
+        text-indent: 25px;
+        text-align: left;
+      }
+      @font-face {
+        font-family: Comfort;
+        src: url(/fonts/Comfortaa.woff);
+      }
+      main > p {
+        font-family: Comfort;
+        text-indent: 25px;
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 200%;
+        font-size: 20px;
+      }
+      .qwerty::first-letter {
+        font-weight: bold;
+        font-size: 45px;
+        color: white;
+        background-color: hsla(275, 100%, 10%, 1);
+      }
+      ol {
+        list-style-type: upper-roman;
+        color: black;
+        font-family: Comfort;
+        text-indent: 25px;
+        text-align: justify;
+        margin-top: 0;
+        margin-bottom: 0;
+        line-height: 200%;
+        font-size: 20px;
+      }
+      li::marker {
+        color: blue;
+      }
+      #A {
+        margin-bottom: 0;
+      }
+      #ab {
+        text-indent: 25px;
+        font-size: 20px;
+        font-family: Comfot;
+      }
+     
+      #ab::first-line {
+        color: red;
+      }

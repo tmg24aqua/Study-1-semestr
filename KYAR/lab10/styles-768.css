@@ -1,0 +1,12 @@
+
+    h1,figcaption {
+        color: blue  ;
+    }
+    
+.img1{
+    width: 100%;
+    height: auto;
+   
+}
+.gal{
+    flex-flow: column;}

@@ -1,0 +1,46 @@
+p {
+    font-family: Arial;
+    font-size: 16pt;
+    color: #2f00ff;
+  }
+  span {
+    color: rgb(168, 0, 0);
+  }
+  table td
+   {
+    background-color: #7b749d;
+  }
+  .g {
+    text-align: center;
+    color: black;
+  }
+  td {
+    text-align: center;
+  }
+  h1,h2,h3 {
+    font-family: Monotype Corsiva;
+    color:rgb(107,63 , 160);
+    }
+    .a {
+    font-family: Times New Roman;
+    font-size: 18pt;
+     color: #ff0000;    
+    }
+    .b {
+    font-family: Times New Roman;
+    font-size: 20pt;
+     color: #f2ff00;    
+    }
+    .c {
+    font-family: Times New Roman;
+    font-size: 22pt;
+     color: #00ff2a;    
+    }
+    table{
+      border-spacing:5 ;
+      border: 1px solid black;
+      width: 100%;
+      td{
+padding: 5px;
+      }
+    }

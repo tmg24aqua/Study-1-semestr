@@ -1,0 +1,63 @@
+ div {
+        
+        display: inline-block;
+        padding: 10px ; /* отступы*/
+        border: 9px;
+        margin: 10px 1px ; /* сверху | справа | снизу | слева */
+      }
+      .r {
+        border-color: rgb(255, 0, 0);
+        border-style: outset;
+      }
+      .g {
+        border-color: rgb(0, 255, 00);
+        border-style: dashed;
+      }
+      .b {
+        border-color: rgb(0, 00, 255);
+        border-style: dotted;
+      }
+      .c {
+        border-color: rgb(0, 255, 255);
+        border-style: double;
+      }
+      .m {
+        border-color: rgb(255, 0, 255);
+        border-style: groove;
+      }
+      .y {
+        border-color: rgb(255, 255, 0);
+        border-style: inset;
+      }
+      .k {
+        border-color: rgb(0, 0, 0);
+        border-style: solid;
+      }
+      span {
+        display: inline-block;
+        margin: 5px;
+        padding: 5px;
+        background-color: #ffa500;
+        border-style: solid;
+        border-color: #ff4500;
+      }
+      .p1 {
+        width: 400px;
+        display: block;
+        
+        border-style: solid;
+        border-color: #ff7f50;
+       margin: auto ; 
+      }
+      .p2 {
+        border-style: solid;
+        border-color: red;
+        border-width: 5px;
+        border-radius: 20px/40px;
+        box-shadow: inset 2px 2px 8px 8px rgba(0, 0, 0, .5);
+        overflow: auto;
+      }
+      .p3 {
+        border-style: solid;
+        border-color: #ff6347;
+      }

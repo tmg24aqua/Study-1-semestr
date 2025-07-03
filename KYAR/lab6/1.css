@@ -1,0 +1,70 @@
+span {
+    color: rgb(0, 137, 168);
+  }
+  .a {
+    text-align: center;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: Bahnschrift;
+  }
+  .table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  tr,
+  td {
+    border: 1px solid black;
+  }
+  tr td {
+    text-align: center;
+  }
+  ul > li {
+    list-style: none;
+    background-image: url(foto/zvezda.png);
+    background-size: 15px;
+    background-repeat: no-repeat;
+    background-position: 1px 4px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+  }
+  body {
+    background-image: url(foto/fit.jpg);
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+img{
+  height: 404px;
+  width: 270px;
+  display: block;
+  border: 1px solid;
+  
+}
+.img1{
+  float: left;
+ 
+}
+.img2{
+  float: right;
+ 
+}
+.p1{
+  display: flex;
+  border: 1px solid ;
+  box-sizing: content-box;
+  height: 200px;
+  width: 270px;
+  
+}
+
+  section>p {
+    margin: 0;
+    text-indent: 0;
+  }
+  section{ padding: 10px 0 10px;
+    width: 546px;
+    height: 800px;
+  }

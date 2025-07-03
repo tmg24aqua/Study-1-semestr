@@ -1,0 +1,134 @@
+<!DOCTYPE html>  
+<html lang="ru">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Second</title>  
+    <style>  
+        form {  
+            width: 470px;  
+            height: 500px;  
+            outline: 1px solid #d4bdbd;  
+        }  
+        .header {  
+            position: relative;  
+            left: 10px;  
+            top: 10px;  
+        }  
+        label {  
+            display: inline-block;  
+            width: 160px;  
+            text-align: right;  
+        }  
+        input[type="text"],  
+        input[type="email"],  
+        input[type="tel"] {  
+            margin-top: 10px;  
+        }  
+        input[type="button"] {  
+            margin-top: 10px;  
+            margin-left: 10px;  
+        }  
+        select {  
+            width: 178px;  
+        }  
+        footer{
+          margin-top: 80px;
+        }
+    </style>  
+</head>  
+<body>  
+    <form id="studentForm">  
+        <h1 class="header">Данные студента</h1>  
+        <p>  
+            <label>Имя студента</label>  
+            <input id="studentName" type="text" placeholder="Ваше имя " required />  
+        </p>  
+        <p>  
+            <label>Фамилия студента</label>  
+            <input id="studentMiddleName" type="text" placeholder="Ваша фамилия" required />  
+        </p>  
+        <p>  
+            <label>Отчество студента</label>  
+            <input id="studentLastName" type="text" placeholder="Ваше отчество" required />  
+        </p>  
+        <p>  
+            <label>Адрес почты</label>  
+            <input id="email" type="email" placeholder="Ваша электронная почта" required />  
+        </p>  
+        <p>  
+            <label>Контактный номер</label>  
+            <input id="phoneNumber" type="tel" placeholder="Ваш мобильный номер" required />  
+        </p>  
+        <p>  
+            <label>Факультет</label>  
+            <select id="faculty">  
+                <option value=""></option>  
+                <option value="ФИТ">ФИТ</option>  
+                <option value="ХТиТ">ХТиТ</option>  
+                <option value="ПИМ">ПИМ</option>  
+            </select>  
+        </p>  
+        <p>  
+            <label>Группа</label>  
+            <select id="group">  
+                <option value=""></option>  
+                <option value="1">1</option>  
+                <option value="2">2</option>  
+                <option value="3">3</option>  
+                <option value="4">4</option>  
+                <option value="5">5</option>  
+                <option value="6">6</option>  
+                <option value="7">7</option>  
+                <option value="8">8</option>  
+                <option value="9">9</option>  
+                <option value="10">10</option>  
+            </select>  
+        </p>  
+        <p>  
+            <label>Курс</label>  
+            <select id="course">  
+                <option value=""></option>  
+                <option value="1">1 курс</option>  
+                <option value="2">2 курс</option>  
+                <option value="3">3 курс</option>  
+                <option value="4">4 курс</option>  
+            </select>  
+        </p>  
+        <p>  
+            <label>Какие социальные сети вы используете?</label>  
+            <input id="VK" type="checkbox" /> VK   
+            <input id="Facebook" type="checkbox" /> Facebook   
+            <input id="Instagram" type="checkbox" /> Instagram  
+        </p>  
+        <input type="button" value="Отправить" onclick="displayValues()" />  
+    </form>  
+    <footer></footer>  
+    <script>  
+        function displayValues(){  
+            const studentName = document.getElementById('studentName').value;  
+            const studentMiddleName = document.getElementById('studentMiddleName').value;  
+            const studentLastName = document.getElementById('studentLastName').value;  
+            const email = document.getElementById('email').value;  
+            const phoneNumber = document.getElementById('phoneNumber').value;  
+            const vk = document.getElementById('VK').checked ? 'VK' : '';
+            const facebook = document.getElementById('Facebook').checked ? 'Facebook' : '';
+            const instagram = document.getElementById('Instagram').checked ? 'Instagram' : '';
+            const faculty = document.getElementById('faculty').value;  
+            const group = document.getElementById('group').value;  
+            const course = document.getElementById('course').value;  
+            const output =` <p>
+                          Имя студента:   ${studentName} ;  
+                          Фамилия студента: ${studentMiddleName} ; 
+                          Отчество студента: ${studentLastName} ;  
+                          Адрес почты: ${email} ;
+                          Контактный номер: ${phoneNumber} ;   
+                          Социальные сети студента:   ${vk} ${facebook} ${instagram} ;
+                          Факультет:  ${faculty} ;  
+                          Группа:  ${group}   ;
+                          Курс:  ${course} . </p>`;
+            document.querySelector('footer').innerHTML = output;  
+        }  
+    </script>  
+</body>  
+</html>

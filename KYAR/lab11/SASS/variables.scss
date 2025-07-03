@@ -1,0 +1,13 @@
+$font-size2:20px;
+$font-size1:24px;
+$color:aquamarine;
+%btr {  background-color: aquamarine;
+    border: 2px solid aquamarine;
+    border-radius: 10px;
+    a{
+        text-decoration: none;
+        color: black;
+    }
+}
+$dark-mode: false;
+$font:Arial, Helvetica, sans-serif;

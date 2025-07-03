@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Copatible" content="IE=adge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Блочная модель</title>
+    <link href="1-2.css" rel="stylesheet">
+     
+  </head>
+  <body>
+    <div class="r">R</div>
+    <div class="g">G</div>
+    <div class="b">B</div>
+    <div class="c">C</div>
+    <div class="m">M</div>
+    <div class="y">Y</div>
+    <div class="k">K</div>
+    <p class="p1">
+      Давайте продолжим и рассмотрим некоторые примеры. Ниже мы имеем три разных
+      элемента HTML с внешним типом отображения <span> block</span>. Первый —
+      это абзац, который имеет обрамление, указанное в CSS. Браузер отображает
+      его как блочный элемент, поэтому абзац начинается с новой строки и
+      расширяется на всю доступную ему ширину.
+    </p>
+    <p class="p2">
+      Второй — это список, который свёрстан с использованием
+      <span>display: flex</span>. Это устанавливает flex-расположение для
+      элементов внутри контейнера, однако сам список — блочный элемент и — как и
+      абзац — расширяется на всю ширину контейнера и начинается с новой строки.
+    </p>
+    <p class="p3">
+      Ниже у нас есть абзац блочного типа, внутри которого есть два элемента
+      span. Эти элементы по умолчанию имеют тип inline, однако у одного из них
+      задан класс block, для которого мы установили <span>display: block.</span>
+    </p>
+  </body>
+</html>

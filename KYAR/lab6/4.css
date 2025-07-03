@@ -1,0 +1,25 @@
+            div {
+        display: inline-block;
+        padding: 10px;
+        margin: 0 8px;
+        border: 1px solid rgb(0, 0, 0);
+        width: 100px;
+        height: 100px;
+        text-align: center;}
+    #d1{ background-image: linear-gradient(to bottom, blue , red);
+
+    }  
+    #d2{
+background-image: repeating-linear-gradient(45deg,red
+, red 9px,blue 9px,blue 20px);
+    }  
+    #d3{
+        background-image: radial-gradient(yellow, green);
+    }
+    #d4{
+        background-image: repeating-radial-gradient(green, green 8px,yellow 8px,yellow 16px);;
+    } 
+#d5{
+    background-image: radial-gradient(yellow,green,transparent),
+    linear-gradient(to bottom, blue,purple);
+}

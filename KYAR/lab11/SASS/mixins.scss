@@ -1,0 +1,34 @@
+@import"variables";
+@mixin font {
+    form{
+      font-family: $font;  
+    }
+}
+@function textsize($font-size1){
+    @return $font-size1*0.8;
+}
+@mixin card {
+  // Цвета для светлой темы
+  $background-color: white;
+  $text-color:black;
+
+  @if ($dark-mode == true) {
+    // Если условие сработает, то мы просто перезапишем значения переменных.
+    $background-color: #161625;
+    $text-color: #e1e1ff;
+  }
+
+  html {
+      background: $background-color;
+      color: $text-color;
+}
+  }
+  @for $i from 1 through 4{
+    @if ($i % 2 == 0){
+        .bg#{$i}{
+            &:hover{
+              background-color: $color;
+            }
+        }
+    }
+}

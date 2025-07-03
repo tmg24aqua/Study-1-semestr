@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EEA38443-2AA7-4410-B56B-796FFD110891}|Lab_02\\Lab_02.vcxproj|C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\Lab_02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EEA38443-2AA7-4410-B56B-796FFD110891}|Lab_02\\Lab_02.vcxproj|solutionrelative:Lab_02\\lab02.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46042CCB-1188-453C-A054-E02943E43E4B}|ConsoleApplication1\\ConsoleApplication1.vcxproj|C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{46042CCB-1188-453C-A054-E02943E43E4B}|ConsoleApplication1\\ConsoleApplication1.vcxproj|solutionrelative:ConsoleApplication1\\ConsoleApplication1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0AFBA366-70BC-49C3-9CF3-A4E594CB3EA4}|HelloWorld\\HelloWorld.vcxproj|C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\HelloWorld\\Hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0AFBA366-70BC-49C3-9CF3-A4E594CB3EA4}|HelloWorld\\HelloWorld.vcxproj|solutionrelative:HelloWorld\\Hello.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ConsoleApplication1.cpp",
+              "DocumentMoniker": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeDocumentMoniker": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ToolTip": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\ConsoleApplication1\\ConsoleApplication1.cpp",
+              "RelativeToolTip": "ConsoleApplication1\\ConsoleApplication1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-10-11T11:58:59.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Hello.cpp",
+              "DocumentMoniker": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\HelloWorld\\Hello.cpp",
+              "RelativeDocumentMoniker": "HelloWorld\\Hello.cpp",
+              "ToolTip": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\HelloWorld\\Hello.cpp",
+              "RelativeToolTip": "HelloWorld\\Hello.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-28T09:10:51.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "lab02.cpp",
+              "DocumentMoniker": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\Lab_02\\lab02.cpp",
+              "RelativeDocumentMoniker": "Lab_02\\lab02.cpp",
+              "ToolTip": "C:\\\u0423\u0427\u0401\u0411\u0410\\\u041E\u0441\u043D\u043E\u0432\u044B \u043F\u0440\u043E\u0433. \u0438\u043D\u0436\u0435\u043D\u0435\u0440\u0438\u0438\\HelloWorld\\Lab_02\\lab02.cpp",
+              "RelativeToolTip": "Lab_02\\lab02.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-09-13T12:38:19.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

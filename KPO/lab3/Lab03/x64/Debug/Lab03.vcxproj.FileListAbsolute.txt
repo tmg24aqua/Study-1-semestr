@@ -1,0 +1,2 @@
+C:\LABA 1\Lab03\Lab03\x64\Debug\Lab03.exe
+C:\Основы прог. инженерии\Lab03\Lab03\x64\Debug\Lab03.exe

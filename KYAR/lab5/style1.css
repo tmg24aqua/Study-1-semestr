@@ -1,0 +1,18 @@
+tr,
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+.w{
+  background-color: rgba(104, 77, 77, 0.342);
+}
+
+table {
+  border-spacing: 0;
+}
+
+table tr:first-child {
+  background-color: rgb(255, 6, 6);
+}
+.q{background-color: white;}

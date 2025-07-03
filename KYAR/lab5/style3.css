@@ -1,0 +1,75 @@
+form {
+  background-color: indigo;
+  color: white;
+  height: 570px;
+  width: 450px;
+  font-size: 1.2em;
+  
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+
+h3 {
+  display: block;
+  padding-top: 10px;
+  padding-left: 15px;
+}
+input[type="text"],
+.v,
+.l {
+  display: block;
+  margin-left: 180px;
+  position: relative;
+  top: -20px;
+  width: 220px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 1);
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.75);
+}
+
+.a:focus,
+.l:focus {
+  background-color: white;
+  color: black;
+}
+
+label {
+  display: block;
+
+  padding-left: 15px;
+}
+
+.h {
+  display: block;
+  margin-left: 180px;
+  position: relative;
+  top: -40px;
+  width: 150px;
+  height: 25px;
+}
+.d {
+  display: block;
+  margin-left: 180px;
+  position: relative;
+  top: -20px;
+  width: 150px;
+  height: 25px;
+}
+button {
+  display: inline-block;
+  height: 2pc;
+  width: 6pc;
+  position: relative;
+  left: 190px;
+  top: -10px;
+  background-color: navy;
+  box-shadow: 0 0 4px white;
+  color: white;
+}
+.p{
+  margin-left: 137px; margin-bottom: 20px;
+}

@@ -1,0 +1,17 @@
+tr,
+td {
+  empty-cells: hide;
+
+  border: 2px solid grey;
+  color:white;
+}
+caption{
+  size: 1.2em;
+  text-align: center;
+}
+thead td{background-color: #000BFF;}
+table{
+  border-spacing: 0px;}
+  .c1{background-color: darkblue;}
+  .c2{background-color: purple;}
+  .c3{background-color: green;}

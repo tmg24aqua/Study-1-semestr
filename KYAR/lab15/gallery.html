@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Copatible" content="IE=adge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>photo gallery</title>
+    <style>
+      .container {
+display: flex;
+margin-top: 200px;
+flex-flow: row wrap;
+align-content: space-between;
+align-items: flex-start;
+gap: 20px;
+justify-content: center;
+
+}
+
+img{
+    width: 420px;
+    height: 280px;
+
+}
+p{
+     width: 420px;
+    height: 280px;
+    text-indent: 10px;
+    text-align: justify;
+
+}
+#text {  
+            display: none;}
+    </style>
+</head>
+<body>
+<div class="container">
+<img id="first" src="./foto/mountain.jpg"/>
+<p id="text">Регулярные походы в горы снижают риск сердечно-сосудистых заболеваний. Благодаря пониженному парциальному давлению и меньшему содержанию кислорода на высота организм приспосабливается и начинает вырабатывать больше эритроцитов.  Это способствует укреплению сосудов и увеличению количества микрососудов.  Поэтому, профессиональные спортсмены обязательно проводят тренировки в высокогорье, чтобы приспособить организм к большим нагрузкам и увеличить общую выносливость.</p>
+<img id="second" src="./foto/preroda.jpg"/>   
+<img id="third" src="./foto/ozero.jpg" />
+</div>
+<script>
+   const container = document. getElementById('first');  
+    const description = document. getElementById('text');
+    const img = document.getElementById('second');
+    const thirdImage = document.getElementById('third');
+    function showDescription() {  
+        first.style.display = 'none';
+        description.style.display = 'block';  
+    }  
+    function hideDescription() { 
+        first.style.display = 'block'; 
+        description.style.display = 'none';  
+    }  
+    function ClickFoto() { 
+        second.style.border = '10px solid red'; } 
+        function replaceImageOnHover() {
+    third.src = './foto/asphalt.jpg'; 
+    }
+function restoreImage() {
+    third.src = './foto/ozero.jpg'; 
+    }
+    container.addEventListener('mouseenter', showDescription);  
+    container.addEventListener('mouseleave', hideDescription); 
+    img.addEventListener('click',ClickFoto ); 
+    thirdImage.addEventListener('mouseenter', replaceImageOnHover);
+    thirdImage.addEventListener('mouseleave', restoreImage);
+</script> 
+</body>
+</html>

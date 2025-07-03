@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="XSLT-2.xsl"?>
+<table>
+<header>
+<p>Ученик</p>
+<p1>ОПИ</p1>
+<p2>БЕЛ.ЯЗ.</p2>
+<p3>ИН.ЯЗ.</p3>
+<p4>МАТ.АНАЛИЗ</p4>
+<p5>КЯР</p5>
+</header>
+<people>
+        <name>Дольников А.А.</name>
+            <grade1>10</grade1>
+            <grade2>7</grade2>
+            <grade3>6</grade3>
+            <grade4>8</grade4>
+             <grade5>4</grade5>
+    </people>
+    <people>
+        <name>Езерский Н.В.</name>
+            <grade1>10</grade1>
+            <grade2>8</grade2>
+            <grade3>7</grade3>
+            <grade4>8</grade4>
+             <grade5>3</grade5>
+    </people>
+     <people>
+        <name>Ермолинский Я.И.</name>
+            <grade1>9</grade1>
+            <grade2>6</grade2>
+            <grade3>8</grade3>
+            <grade4>4</grade4>
+             <grade5>4</grade5>
+    </people> <people>
+        <name>Короткевич А.С.</name>
+            <grade1>9</grade1>
+            <grade2>8</grade2>
+            <grade3>8</grade3>
+            <grade4>5</grade4>
+             <grade5>2</grade5>
+    </people> <people>
+        <name>Красильников С.С.</name>
+            <grade1>4</grade1>
+            <grade2>6</grade2>
+            <grade3>7</grade3>
+            <grade4>4</grade4>
+             <grade5>3</grade5>
+    </people>   
+</table>

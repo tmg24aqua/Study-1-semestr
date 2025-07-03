@@ -1,0 +1,352 @@
+div {
+  display: inline;
+  margin: 30px;
+  position: relative;
+}
+img {
+  width: 250px;
+  height: 170px;
+}
+.one:hover {
+  transform: scale(0.5);
+}
+.two:hover {
+  transform: rotate(45deg);
+}
+.three:hover {
+  transform: translate(50px);
+}
+.four:hover {
+  transform: skew(-20deg);
+}
+button {
+  display: inline-block;
+  margin: 15px;
+  width: 150px;
+  height: 40px;
+}
+.but1:hover {
+  background-color: black;
+  color: white;
+}
+.but2:hover {
+  background-color: white;
+  border: 6px solid red;
+  outline: 5px solid yellow;
+}
+.but3:hover {
+  border-top: 6px solid green;
+  border-bottom: 6px solid green;
+  background-color: white;
+  border-left: none;
+  border-right: none;
+}
+.but4:hover {
+  border-right: 6px solid blue;
+  border-left: 6px solid blue;
+  background-color: white;
+  border-top: none;
+  border-bottom: none;
+}
+.but5:hover {
+  border: none;
+  background-image: radial-gradient(
+    yellow,
+    yellow 12px,
+    rgb(250, 0, 255) 35%,
+    rgb(3, 246, 242) 85px
+  );
+}
+
+.five {
+  
+  transform: perspective(400px) rotateX(45deg);
+}
+.six {
+ 
+  transform: perspective(400px) rotateY(45deg);
+}
+.seven {
+  
+  transform: perspective(400px) rotateX(-45deg);
+}
+.eight {
+  
+  transform: perspective(400px) rotateY(-45deg);
+}
+.nine {
+  display: inline-block;
+
+  animation: img1 5s linear infinite;
+  animation-fill-mode: forwards;
+
+  
+  transform: perspective(300px) rotateY(40deg);
+  position: relative;
+}
+@keyframes img1 {
+  0% {
+    left: 0;
+  }
+  50% {
+   
+    transform: rotateY(0deg);
+    left: 0;
+  }
+  100% {
+    
+    transform: rotateY(0deg);
+  }
+}
+.ten {
+  display: inline-block;
+
+  animation: img2 3s linear infinite ;
+  animation-fill-mode: forwards;
+
+ 
+  transform: perspective(300px) rotateY(40deg);
+  position: relative;
+}
+@keyframes img2 {
+  0% {
+    margin-left: -200px;
+    left: 0;
+  }
+  50% {
+    margin-left: -200px;
+   
+    transform: rotateY(0deg);
+    left: 0;
+  }
+  100% {
+   
+    transform: rotateY(0deg);
+    filter: blur(10px);
+  }
+}
+.eleven {
+  display: inline-block;
+
+  animation: img3 3s linear infinite;
+  animation-fill-mode: forwards;
+
+  
+  transform: perspective(300px) rotateY(40deg);
+  position: relative;
+}
+@keyframes img3 {
+  0% {
+    margin-left: -200px;
+    left: 0;
+  }
+  50% {
+    margin-left: -200px;
+   
+    transform: rotateY(0deg);
+    left: 0;
+  }
+  100% {
+    
+    transform: rotateY(0deg);
+    filter: grayscale(1);
+  }
+}
+.twelwe {
+  display: inline-block;
+
+  animation: img4 3s linear  infinite;
+  animation-fill-mode: forwards;
+
+  
+  transform: perspective(300px) rotateY(40deg);
+  position: relative;
+}
+@keyframes img4 {
+  0% {
+    margin-left: -200px;
+    left: 0;
+  }
+  50% {
+    margin-left: -200px;
+   
+    transform: rotateY(0deg);
+    left: 0;
+  }
+  100% {
+    
+    transform: rotateY(0deg);
+    filter: invert(1);
+  }
+}
+.p5 {
+  border: 1px solid black;
+  width: 600px;
+  height: 400px;
+  animation: p5 5s linear infinite;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  
+}
+@keyframes p5 {
+  0% {
+    background-image: url(foto/1.jpg);
+  }
+  25% {
+    background-image: url(foto/2.jpg);
+  }
+  50% {
+    background-image: url(foto/3.jpg);
+  }
+  75% {
+    background-image: url(foto/4.jpg);
+  }
+  100% {
+    background-image: url(foto/5.jpg);
+  }
+}
+.p61 {
+  display: block;
+  width: 250px;
+  height: 170px;
+  animation: img11 4s linear infinite;
+  animation-direction: alternate;
+  position:relative;
+  
+}
+@keyframes img11 {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: 200px;
+  }
+}
+.p62 {
+  display: block;
+  width: 250px;
+  height: 170px;
+
+  animation: img12 4s linear infinite;
+  animation-direction: alternate;
+  position: relative;
+ 
+}
+@keyframes img12 {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100px;
+    border-radius: 250px;
+  }
+  100% {
+    left: 200px;
+  }
+}
+.p63 {
+  display: block;
+  width: 250px;
+  height: 170px;
+
+  animation: img13 4s linear infinite;
+
+  position: relative;
+}
+@keyframes img13 {
+  0% {
+    left: -900px;
+  }
+  100% {
+    left: 800px;
+  }
+}
+.p64 {
+  display: block;
+  width: 250px;
+  height: 170px;
+
+  animation: img14 1s linear infinite;
+  animation-direction: alternate;
+  position: relative;
+}
+@keyframes img14 {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: 50px;
+  }
+}
+.p65 {
+  display:block;
+  width: 250px;
+  height: 170px;
+
+  animation: img15 4s linear infinite;
+
+  position: relative;
+}
+@keyframes img15 {
+  0% {
+    left: 0;
+    top: 0;
+  }
+  25% {
+    left: 0px;
+    top: 50px;
+  }
+  50% {
+    left: 50px;
+    top: 50px;
+  }
+  75% {
+    left: 50px;
+    top: 0px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.p7 {
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  animation: 5s linear infinite;
+  text-align: justify;
+}
+
+.p7:hover {
+  animation: ghkfd 5s linear infinite;
+}
+
+@keyframes ghkfd {
+  0% {
+    color: black;
+  }
+  25% {
+    color: rgb(81, 165, 42);
+  }
+
+  50% {
+    color: yellow;
+  }
+
+  75% {
+    color: red;
+  }
+}
+.header {
+  animation: header 2s infinite alternate;
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.8;
+  }
+}

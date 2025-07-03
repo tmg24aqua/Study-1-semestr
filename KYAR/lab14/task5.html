@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Copatible" content="IE=adge"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Задание 5</title>
+</head>
+<body>
+    <svg width="1200" height="1200">
+<circle cx="52" cy="55" r="50" fill="blue" stroke="blue" stroke-width="5">
+    <animate attributeName="stroke" from="red" to="red" begin="mouseover" end="mouseout" dur="1s" repeatCount="indefinite" />
+</circle>
+    <rect x="112" y="5" width="120" height="100" fill="red" stroke="blue" stroke-width="3"> <animate attributeName="stroke-dasharray"  from="0, 800" to="800, 0"  dur="3s"  fill="freeze"  /></rect>
+    <ellipse cx="330" cy="50" rx="90" ry="50" fill="green" begin="click" >  <animate attributeName="fill" to="blue"  dur="0.5s"  begin="click" fill="freeze" /></ellipse>
+    <polygon  points="410,100 560,100 485,0 " fill=" url(#tr)" />
+ 
+<defs>
+    <linearGradient id = "tr">
+    <stop offset = "30%" stop-color = "green"/>
+    <stop offset = "70%" stop-color = "orange"/>
+    </linearGradient>
+ </defs>
+</svg> 
+</body>
+</html>

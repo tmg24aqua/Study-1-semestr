@@ -1,0 +1,48 @@
+shop{
+    display: table;
+    width: 1315px;
+    margin-left: 2%;
+    margin-top: 2%;
+    border: 1px solid black;
+    border-collapse:collapse ;
+}
+title1{ display: table-caption;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    background-color: rgba(196, 20, 20, 0.719);
+    color: white;
+    border: 1px solid black;
+      
+}
+
+heading,product,tutle1{
+    display: table-row;
+}
+cap1,cap2,cap3{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+name, price, characteristics{
+    display: table-cell;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+characteristics{
+    
+    text-align: justify;
+    text-indent: 15px;
+    padding: 10px;    
+    
+}
+name{
+    width: 230px;
+}
+price{
+    width: 85px;
+}   

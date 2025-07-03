@@ -1,0 +1,9 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (x64\Debug\) содержит файлы, которые используются совместно с другим проектом (aoip4.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  M5.cpp
+  main.cpp
+  M1.cpp
+  M3.cpp
+  M2.cpp
+  M4.cpp
+  Создание кода...
+  aoip4.vcxproj -> C:\УЧЁБА\Основы прог. инженерии\OPI6.7\6\x64\Debug\OPI6.exe
